@@ -1,0 +1,1 @@
+﻿create table db_connect("username" varchar(5), "password" varchar(5));
