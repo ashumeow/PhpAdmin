@@ -20,7 +20,4 @@
     <Compile Include="db_connect.php" />
     <Compile Include="login.php" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="db_connect.sql" />
-  </ItemGroup>
 </Project>

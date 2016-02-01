@@ -17,7 +17,7 @@ if(isset($_POST['username']) && isset($_POST['password'])) {
     $response['user_data']=array();
 
     $user_data = array();
-    $login = "SELECT * FROM gcmuser WHERE user='$username' AND pass='$password';";
+    $login = "SELECT * FROM db_connect WHERE user='$username' AND pass='$password';";
     $result = mysql_query($login);
 
     // Mysql_num_row is Counting table row
